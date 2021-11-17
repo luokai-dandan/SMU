@@ -40,7 +40,6 @@ class SMU(nn.Module):
     def forward(self, x):
         return ((1+self.alpha)*x + (1-self.alpha)*x*torch.erf(self.mu*(1-self.alpha)*x))/2
 
-
 class SMU1(nn.Module):
     '''
     Implementation of SMU-1 activation.
@@ -73,7 +72,6 @@ class SMU1(nn.Module):
     def forward(self, x):
         return ((1+self.alpha)*x+torch.sqrt(torch.square(x-self.alpha*x)+torch.square(self.mu)))/2
 
-
 def test_SMU(x):
     smu_activation = SMU()
     print(f'SMU = {smu_activation(x)}')
@@ -86,7 +84,6 @@ def test():
     x = torch.Tensor([0.6,-0.3])
     test_SMU(x)
     test_SMU1(x)
-
 
 if __name__ == '__main__':
     test()
