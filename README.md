@@ -1,6 +1,8 @@
 # SMU_pytorch
 A Pytorch Implementation of SMU: SMOOTH ACTIVATION FUNCTION FOR DEEP NETWORKS USING SMOOTHING MAXIMUM TECHNIQUE
 
+## The original author's link
+https://github.com/iFe1er/SMU_pytorch
 
 ## arXiv
 https://arxiv.org/abs/2111.04682
@@ -28,3 +30,4 @@ Please check https://github.com/iFe1er/SMU for tensorflow 2.x implementation.
 >       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv211104682B},
 >      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 >}
+
