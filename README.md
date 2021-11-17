@@ -9,6 +9,8 @@ https://arxiv.org/abs/2111.04682
 
 ## Requirements
 Pytorch 1.7
+Matplotlib
+Numpy
 
 ## Tensorflow version of SMU activation
 Please check https://github.com/iFe1er/SMU for tensorflow 2.x implementation.
