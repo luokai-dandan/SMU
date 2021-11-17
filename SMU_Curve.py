@@ -1,17 +1,17 @@
 # -*- coding: UTF-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
-from SUM import *
+from SMU import *
 
 def Pretreatment(x, alpha:float, mu:list, reluFlag=True) -> list:
-    sum0 = SMU(alpha=alpha, mu=mu[0])
-    y0 = sum0(x)
+    smu0 = SMU(alpha=alpha, mu=mu[0])
+    y0 = smu0(x)
 
-    sum1 = SMU(alpha=alpha, mu=mu[1])
-    y1 = sum1(x)
+    smu1 = SMU(alpha=alpha, mu=mu[1])
+    y1 = smu1(x)
 
-    sum2 = SMU(alpha=alpha, mu=mu[2])
-    y2 = sum2(x)
+    smu2 = SMU(alpha=alpha, mu=mu[2])
+    y2 = smu2(x)
 
     if reluFlag:
         leakyRelu = torch.nn.ReLU()
