@@ -30,4 +30,3 @@ Please check https://github.com/iFe1er/SMU for tensorflow 2.x implementation.
 >       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv211104682B},
 >      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 >}
-
